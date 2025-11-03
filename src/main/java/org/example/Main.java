@@ -1,7 +1,15 @@
 package org.example;
 
+import org.example.ui.Principal;
+
+/**
+ * Clase Main del proyecto
+ * Aquí se puede iniciar el programa
+ * @author Raúl López Palomo
+ */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new Principal().start();
+
     }
 }
