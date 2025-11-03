@@ -3,6 +3,10 @@ package org.example.context;
 import java.util.HashMap;
 import java.util.Optional;
 
+/**
+ * Clase que contiene un Singletone para poner mandar y recibir datos entre distintas pantallas
+ * @author Raúl López Palomo
+ */
 public class ContextService {
 
     private static ContextService instance;
@@ -10,6 +14,7 @@ public class ContextService {
 
     // Constructor privado --> no se puede instanciar desde fuera
     private ContextService() {}
+
 
     public static ContextService getInstance(){
         if(instance == null){

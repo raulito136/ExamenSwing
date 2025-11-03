@@ -24,6 +24,9 @@ public class Principal extends JFrame {
     DefaultTableModel modelo;
     ArrayList<Usuario> usuarios=new ArrayList<>();
 
+    /**
+     * Metodo Constructor de esta clase
+     */
     public Principal(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Examen Swing");
